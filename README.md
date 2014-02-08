@@ -7,7 +7,7 @@ Configuration
 ==================================
 Add this in your app module
 
-public static void contributeFileSystemAssetAliasManager(MappedConfiguration<String, String> configuration) {
+	public static void contributeFileSystemAssetAliasManager(MappedConfiguration<String, String> configuration) {
 		configuration.add("your_alias_name", "file:/" + "your_assets_directory");
 	}
 
