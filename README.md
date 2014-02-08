@@ -5,7 +5,7 @@ Make a second asset pipeline, for Tapestry framework(http://tapestry.apache.org/
 
 Configuration
 ==================================
-Add this in your app module
+Add this in your app module. 
 
 	public static void contributeFileSystemAssetAliasManager(MappedConfiguration<String, String> configuration) {
 		configuration.add("your_alias_name", "file:/" + "your_assets_directory");
@@ -27,3 +27,4 @@ Add this in your app module
 		//Replace 'fs' with a CONSTANT
 		configuration.add("your_alias_name", new FileSystemAssetRequestHandler(streamer, assetResourceLocator, "/fs/your_alias_name"));
 	}
+You can add as many directory as you want.
