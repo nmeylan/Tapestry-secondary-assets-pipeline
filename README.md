@@ -1,7 +1,7 @@
 Tapestry-secondary-assets-pipeline
 ==================================
 
-Make a second asset pipeline to load files system as assets. Use this with caution.
+Make a second asset pipeline, for Tapestry framework(http://tapestry.apache.org/), to load files system as assets. Use this with caution.
 
 Configuration
 ==================================
